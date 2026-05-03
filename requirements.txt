@@ -1,0 +1,37 @@
+# =====================================================================
+# AI Quant 学习项目依赖
+# 用法：pip install -r requirements.txt
+# 推荐 Python 版本：3.13（当前 venv 实际使用 3.13.7）
+# =====================================================================
+
+# ---- 数据与金融数据源 ----
+pandas==3.0.2
+numpy==2.4.4
+yfinance==1.3.0
+
+# ---- 可视化 ----
+matplotlib==3.10.8
+mplfinance==0.12.10b0
+# 以下两个尚未在本机安装，但部分 notebook 已引用（如 17_Global_Index）
+seaborn
+plotly
+
+# ---- 科学计算 / 机器学习 ----
+# 以下两个尚未在本机安装，但部分 notebook 已引用
+# scipy: 14.7 / 14.8 用于 norm / gaussian_kde
+# scikit-learn: 3_9 / 3_10 章节用于回归与 KNN
+scipy
+scikit-learn
+
+# ---- Jupyter Notebook 运行环境 ----
+ipykernel==7.2.0
+jupyter
+
+# ---- LLM API（第 4 章 DeepSeek / GPT）----
+# 尚未在本机安装，使用前 pip install
+openai
+
+# ---- 课程方私有库（不在 PyPI）----
+# 第 13、15、19、20、23 章使用，从作者仓库直接安装：
+#   pip install git+https://github.com/Delta-F/deltafq.git
+# deltafq
