@@ -17,10 +17,9 @@ seaborn
 plotly
 
 # ---- 科学计算 / 机器学习 ----
-# 以下两个尚未在本机安装，但部分 notebook 已引用
-# scipy: 14.7 / 14.8 用于 norm / gaussian_kde
-# scikit-learn: 3_9 / 3_10 章节用于回归与 KNN
-scipy
+# scipy: 14.7 / 14.8 用于 norm / gaussian_kde（已安装）
+# scikit-learn: 3_9 / 3_10 章节用于回归与 KNN（尚未安装）
+scipy==1.17.1
 scikit-learn
 
 # ---- Jupyter Notebook 运行环境 ----
